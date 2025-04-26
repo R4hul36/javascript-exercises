@@ -3,7 +3,7 @@
 // is using the rest operator. If this is unfamiliar to you look it up!
 const removeFromArray = function (array, ...args) {
   // create a new empty array
-  const newArray = [];
+  const newArray = []; 
   // use forEach to go through the array
   array.forEach((item) => {
     // push every element into the new array
